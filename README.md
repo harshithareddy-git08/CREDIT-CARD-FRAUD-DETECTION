@@ -1,9 +1,11 @@
 🛡️CREDIT-CARD-FRAUD-DETECTION
 
   📌 Project Overview
+  
 This project implements a **machine learning pipeline** to detect fraudulent credit card transactions using the anonymized dataset (`creditcard.csv`). Fraud detection is a critical challenge in financial systems due to the rarity of fraudulent cases, the need for real-time detection, and the importance of scalable deployment.
 
  ✨ Features
+ 
 - **Data Preprocessing**: Cleans and normalizes transaction data.  
 - **Imbalanced Data Handling**: Uses undersampling/SMOTE to address fraud rarity.  
 - **Machine Learning Models**: Logistic Regression, Random Forest, Gradient Boosting.  
@@ -15,6 +17,7 @@ This project implements a **machine learning pipeline** to detect fraudulent cre
 
  
  ⚙️ Tech Stack
+ 
 - **pandas** → Data preprocessing  
 - **numpy** → Numerical computations  
 - **scikit-learn** → ML models & evaluation  
@@ -26,6 +29,7 @@ This project implements a **machine learning pipeline** to detect fraudulent cre
 
 
 🔍 Workflow
+
 1. **Data Preprocessing**
    - Load and clean dataset (`creditcard.csv`).
    - Handle imbalance with SMOTE/undersampling.
@@ -44,7 +48,10 @@ This project implements a **machine learning pipeline** to detect fraudulent cre
    - Send transaction data to API.
    - Receive fraud probability and classification result.
 
+     
+
  🚀 How to Run
+ 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/creditcard-fraud-detection.git
@@ -72,8 +79,8 @@ This project implements a **machine learning pipeline** to detect fraudulent cre
    -H "Content-Type: application/json" \
    -d '{"amount":200.0,"time":12345,"V1":-1.2,...}'
 
+🎓 Learning Outcomes
 
-    🎓 Learning Outcomes
 By completing this project, you will:
 - Understand **imbalanced dataset challenges**.  
 - Gain experience with **data preprocessing and feature scaling**.  
@@ -85,6 +92,7 @@ By completing this project, you will:
 
 
 📈 Future Enhancements
+
 - Integration with **deep learning models** (e.g., LSTMs).  
 - Real-time **streaming fraud detection** with Apache Kafka.  
 - Interactive **dashboard** for monitoring fraud detection performance.  
@@ -94,6 +102,9 @@ By completing this project, you will:
 
 Dataset (creditcard.csv) → Preprocessing → Model Training → Evaluation → Joblib Model → FastAPI → Uvicorn → User/API Client
 
-This README.md is **ready to post on GitHub** and will make your repository look professional, structured, and audience-friendly.  
+👩‍💻 Author
 
-👉 Do you want me to also add **badges** (Python version, build status, license, etc.) at the top so it looks polished like popular open-source projects?
+Harshitha C
+
+🔗GitHub: https://github.com/harshithareddy-8 
+🔗Linkedin: https://www.linkedin.com/in/harshitha-c-7059412a9
